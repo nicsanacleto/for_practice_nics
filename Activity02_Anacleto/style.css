@@ -1,0 +1,112 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+.max-width{
+max-width: 1300px;
+padding: 0 80px;
+margin: auto;
+}
+.navbar{
+position: fixed;
+width: 100%;
+padding: 15px 0;
+background: #931C19;
+font-family: 'Ubuntu,', sans-serif;
+transition: all 0.3s ease;
+}
+.navbar .sticky{
+padding: 15px 0;
+}
+.navbar .max-width{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.navbar .logo a{
+color:#fff;
+font-size: 35px;
+font-weight: 600;
+}
+
+.navbar .logo a span{
+color: black;
+}
+.navbar .menu li{
+list-style: none;
+display: inline-block;
+}
+.navbar .menu li a{
+color: #fff;
+font-size: 18px;
+font-weight: 500;
+margin-left: 25px;
+transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+color: black;
+}
+.home{
+display: flex;
+background-color: #E8D4A3;
+height: 105vh;
+color: black;
+min-width: 500px;
+font-family: 'Ubuntu,', sans-serif;
+
+}
+.home .max-width{
+margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+font-size: 27px;
+}
+.home .home-content .text-2{
+font-size: 75px;
+font-weight: 600;
+margin-left: -3px;
+color: crimson;
+}
+.home .home-content .text-3{
+font-size: 40px;
+margin: 5px 0;
+}
+
+.quizme{
+font-family: 'Poppins', sans-serif;
+background-color: #E2A946;
+padding: 10px 10px 10px 10px;
+}
+
+#page-wrap {
+width: 300px;
+margin: 0 auto;
+}
+h1 { margin: 15px 0;
+font: 18px Georgia, Serif;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+#results {
+font: 44px Georgia, Serif;
+}
+.submitbtn{
+width: 10%;
+height:10%;
+padding: 10px 10px 10px 10px;
+border-radius: 5px;
+cursor: pointer;
+background-color: #931C19;
+font-weight: bold;
+font-size: 20px;
+color:white;
+font-weight: 200;
+}
+
+.submitbtn{
+    font-weight: bold;
+}
